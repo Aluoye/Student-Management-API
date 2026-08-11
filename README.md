@@ -1,8 +1,7 @@
 # Student Management REST API
 
 ## Description
-A Node.js REST API built with Express. Uses a JavaScript Array as an in-memory database.
-Implements full CRUD operations for student records.
+A Node.js REST API to manage students using an in-memory database
 
 ## How to Run
 1.  Clone the repo
@@ -13,8 +12,8 @@ Implements full CRUD operations for student records.
 ## API Endpoints
 | Method | Endpoint | Description |
 | --- | --- | --- |
-| POST | /students | Create a new student |
-| GET | /students | Get all students |
+| POST | /createstudents | Create a new student |
+| GET | /getAllstudents | Get all students |
 | GET | /students/:id | Get student by ID |
 | PUT | /students/:id | Update student by ID |
 | DELETE | /students/:id | Delete student by ID |
